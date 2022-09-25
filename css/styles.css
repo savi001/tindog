@@ -1,0 +1,237 @@
+#title {
+    background-color: #ff4c68;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+.navbar {
+    padding-bottom: 5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+}
+
+.nav-item {
+    padding: 0 15px 0 15px;
+
+}
+
+/* Headings */
+.biggest-heading {
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 900;
+}
+
+.download-button {
+    padding: 0 2rem;
+}
+
+.container-fluid {
+    padding: 2% 15% 15%;
+}
+
+.iphone {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 22%;
+
+
+}
+
+
+
+.p {
+    padding-bottom: 1rem;
+    height: 5rem;
+}
+
+.feature-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    color: #8f8f8f;
+    width: 100%;
+
+}
+/* feature */
+#features {
+    background-color: #fff;
+    position: relative;
+
+
+    padding: 2% 15%;
+    text-align: center;
+
+}
+.bar {
+
+    padding: 3rem 4rem 3rem 3rem;
+    text-align: center;
+}
+
+
+/* testinomials */
+
+#testimonials {
+    background-color: #ef8172;
+
+    color: #fff;
+    text-align: center;
+
+}
+
+.testinomial-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.testimonials-image {
+    padding: 3% 3%;
+    width: 22%;
+    border-radius: 100%;
+}
+#press {
+    padding: 0% 0% 5% 5%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press-image {
+    width: 20%;
+    padding: 0% 3% 3% 3%;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+
+
+
+/* pricing use of cards */
+#pricing {
+    text-align: center;
+    padding: 2rem 15%;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+/* use of media for screen adjustment */
+@media (max-width:993px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        transform: rotate(0deg);
+        padding-top: 2rem;
+        position: static;
+
+        right: 0%;
+    }
+
+    .apple-button {
+        display: inline;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .play-button {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        display: inline;
+    }
+}
+
+/* downloads Sections */
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.find-love {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    padding: 2rem 0 3rem 0;
+}
+
+/* icons logo */
+.apple-button {
+    position: static;
+    display: inline;
+    padding: 0 1rem 0 0;
+}
+
+.play-button {
+    position: static;
+    display: inline;
+    padding: 0 1rem 0 0;
+}
+
+.apple-logo {
+    text-align: center;
+    height: 2rem;
+
+}
+
+.play-logo {
+    text-align: center;
+    height: 2rem;
+
+}
+
+.btn {
+    text-align: center;
+
+}
+
+/* footers */
+.flaticon {
+
+    height: 2rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+#footer {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+
+}
+
+.social {
+    padding: 10rem 1rem 1rem 1rem;
+}
+
+.download-button {
+    height: 2.5rem;
+}
